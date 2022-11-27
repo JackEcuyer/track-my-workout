@@ -3,10 +3,10 @@ import Sidebar from "../components/Sidebar";
 
 const Dashboard = () => {
   return (
-    <div>
+    <>
       <Topbar />
-      <Sidebar></Sidebar>
-    </div>
+      <Sidebar>Main Content</Sidebar>
+    </>
   );
 };
 
