@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 
-export default function Home() {
+const Home = () => {
   return (
     <div>
       <Head>
@@ -13,6 +13,11 @@ export default function Home() {
       <Link href="/login">
         <button className="btn">Login</button>
       </Link>
+      <Link href="/dashboard">
+        <button className="btn btn-primary">Dashboard</button>
+      </Link>
     </div>
   );
-}
+};
+
+export default Home;
